@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="10/22/2024 8:01:42 PM"
@@ -11,9 +11,35 @@
   DTS:LocaleID="17418"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionGUID="{9270F8F0-7CED-4EF9-B74B-8D3E64BAF7D1}">
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{AD13BF4C-165D-46A8-9645-E2369930BDA6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.Parcial3SM19035.sa]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{9D952438-53F7-4564-AA50-F38E588367CD}"
+      DTS:ObjectName="localhost.Parcial3SM19035.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=Parcial3SM19035;Application Name=SSIS-Package-{9D952438-53F7-4564-AA50-F38E588367CD}localhost.Parcial3SM19035.sa;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV3sPw7jguUaJlk3hObwIdQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC+nanKgefGXlE0rr9K/YHMqH0192KARcx4Hs65NxJb0QAAAAAOgAAAAAIAACAAAADM6C/SUCrc/K+ydJiWtQ33izeyVlVadOz+KSVQeP2KZCAAAAB1i00ms4lutFOlRgAwmMp7nMlJZYTdRLRmRMtMxjKxTkAAAAAgWdvkysTHlDAwZvJ8xfiNC5h2q5Li7OSsikONxWhM3FkPRfBkM5OtN7RjlRMUL54HG5kyox0W1N7maD89Vgxt</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+</Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
