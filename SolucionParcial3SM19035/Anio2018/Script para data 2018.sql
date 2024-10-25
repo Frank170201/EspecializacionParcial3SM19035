@@ -18,7 +18,8 @@ IATA_Code_Operating_Airline  varchar(100) not null,
 
 create table DimDelay(
 DelayKey int identity(1,1) primary key,
-WheelsOff int not null,
+DelayID int not null,
+WheelsOff varchar(255) not null,
 DepTime varchar(255)
 )
 
