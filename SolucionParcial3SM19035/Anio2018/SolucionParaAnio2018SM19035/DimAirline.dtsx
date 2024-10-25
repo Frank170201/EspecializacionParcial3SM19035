@@ -11,8 +11,8 @@
   DTS:LocaleID="17418"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="42"
-  DTS:VersionGUID="{CEB00B7E-F989-428A-B044-A541DDAF38A8}">
+  DTS:VersionBuild="43"
+  DTS:VersionGUID="{E9A55450-9FEE-478C-9B4E-E4D6788ABC76}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -597,7 +597,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtAUOcZ33J0iuTRHKNWUYUQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB1J+zFSs9KyGMriz0phWihC7fXyjW/R5MNkX/WhRvTWgAAAAAOgAAAAAIAACAAAAAUVJyuTpdy7zWWtRThEu+OeJnpD7UuOknkFozVqLJY4SAAAABWSRlZF/kenjFW0aHjIj3Ong+vpSfZykoPFwgrsKtwJEAAAABzzo8ViEmeKLNkUbv76MSl+yrQMGW/flpKL92uCqUfdaQSOzOYugMbQHbLaN19SNm5IysdvdjEt/cku52rwgho</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtAUOcZ33J0iuTRHKNWUYUQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB8iXRnbU2/Gq0WvlnXSarhEQ+OMBodnH3i03BIa3Te5QAAAAAOgAAAAAIAACAAAABgBjABLt3L3QqbU37OYpugu/ATRleUyjL+Zw4gZG9duSAAAABj34527wKRZ9Y40r1iHZvTe6u6w23gOGuZIVdJ2l7it0AAAAA4ytdBpFDjwGlq4H/nw3d10F+p2tm9cktZjret4McyeFIhLA5CyToCKrzw/R02VHouG93xpfGHnOa9AyliHiXy</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1462,13 +1462,13 @@
           Id="Package\Tarea Flujo de datos\Destino de ADO NET"
           TopLeft="724,269" />
         <NodeLayout
-          Size="196,42"
-          Id="Package\Tarea Flujo de datos\Origen de archivo plano"
-          TopLeft="324,47" />
-        <NodeLayout
           Size="161,42"
           Id="Package\Tarea Flujo de datos\Data Conversion"
           TopLeft="344,263" />
+        <NodeLayout
+          Size="196,42"
+          Id="Package\Tarea Flujo de datos\Origen de archivo plano"
+          TopLeft="324,47" />
         <EdgeLayout
           Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
           TopLeft="423.25,89">

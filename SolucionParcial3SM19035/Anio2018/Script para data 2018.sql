@@ -30,7 +30,7 @@ Month tinyint not null,
 Quarter int not null,
 DayOfWeek int not null,
 DayOfMonth int not null,
-FligthDate int not null,
+FligthDate datetime not null,
 )
 
 create table FactFlight(

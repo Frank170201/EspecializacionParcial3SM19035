@@ -11,8 +11,8 @@
   DTS:LocaleID="17418"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{5DC66EAA-8275-4493-B832-5661CBD739D8}">
+  DTS:VersionBuild="20"
+  DTS:VersionGUID="{E1C33613-BB95-437F-8A55-75C87826BB15}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -597,7 +597,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtAUOcZ33J0iuTRHKNWUYUQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACMxOK/bQLgDsDgNNhhS6ueDFLd/R+dB94hs5Qa5T1vPAAAAAAOgAAAAAIAACAAAACGxtzdmXvJHD7kNJ32updszOy0kiHZWMmc557QxvlkqSAAAABNzYrhXfVW6jFMlcEAlAh1TjbgGILs9yAC477+QL3W2kAAAAAFMzmebj/f53A/DmkaSdXvVA3sT7iLgNwLK1MyEsDjUEx9N17qwImzDbcxRmfy/nGkgQU7T7c6fVE7pKCpy6yR</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtAUOcZ33J0iuTRHKNWUYUQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADRZxobbBrT6sF+o69HA+rpVVR196DnX+ID20cKfa3A1AAAAAAOgAAAAAIAACAAAAC8Ikv4bXOneesfL2Ev3OfQIzDEenCrDjmJRNd0UQ2zWyAAAADXqBwkYUznjsf+HkGblymZatGGXfN5B4W6u/Ebecn/DEAAAABS/JkDSZv+E4obhXoonDJ3vYWWzZi/1kQXABzvPJJswgrZs6adCBeY/A8eTHj1MS9rcLEJtbdEOy65fVpN7qD1</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -668,7 +668,7 @@
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[FlightDate]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="150"
                       cachedName="FlightDate"
                       lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[FlightDate]" />
                   </inputColumns>
@@ -686,10 +686,10 @@
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Year]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="RedirectRow"
+                      errorRowDisposition="FailComponent"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Year]"
                       name="Copy of Year"
-                      truncationRowDisposition="RedirectRow">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -706,10 +706,10 @@
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Month]"
                       dataType="i2"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="RedirectRow"
+                      errorRowDisposition="FailComponent"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Month]"
                       name="Copy of Month"
-                      truncationRowDisposition="RedirectRow">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -726,11 +726,11 @@
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Quarter]"
                       dataType="numeric"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="RedirectRow"
+                      errorRowDisposition="FailComponent"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Quarter]"
                       name="Copy of Quarter"
                       precision="18"
-                      truncationRowDisposition="RedirectRow">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -747,11 +747,11 @@
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DayOfWeek]"
                       dataType="numeric"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="RedirectRow"
+                      errorRowDisposition="FailComponent"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DayOfWeek]"
                       name="Copy of DayOfWeek"
                       precision="18"
-                      truncationRowDisposition="RedirectRow">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -768,11 +768,11 @@
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DayofMonth]"
                       dataType="numeric"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="RedirectRow"
+                      errorRowDisposition="FailComponent"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DayofMonth]"
                       name="Copy of DayofMonth"
                       precision="18"
-                      truncationRowDisposition="RedirectRow">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -787,12 +787,12 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of FlightDate]"
-                      dataType="i4"
+                      dataType="date"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="RedirectRow"
+                      errorRowDisposition="FailComponent"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of FlightDate]"
                       name="Copy of FlightDate"
-                      truncationRowDisposition="RedirectRow">
+                      truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
@@ -923,7 +923,7 @@
                       lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DayofMonth]" />
                     <inputColumn
                       refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of FlightDate]"
-                      cachedDataType="i4"
+                      cachedDataType="date"
                       cachedName="Copy of FlightDate"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[FligthDate]"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of FlightDate]" />
@@ -956,7 +956,7 @@
                       name="DayOfMonth" />
                     <externalMetadataColumn
                       refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[FligthDate]"
-                      dataType="i4"
+                      dataType="dbTimeStamp"
                       name="FligthDate" />
                   </externalMetadataColumns>
                 </input>
@@ -1134,7 +1134,7 @@
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[FlightDate]"
-                      length="50"
+                      length="150"
                       lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[FlightDate]"
                       name="FlightDate"
                       truncationRowDisposition="FailComponent">
