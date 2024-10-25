@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LAPTOP-PJVUF9UC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtAUOcZ33J0iuTRHKNWUYUQAAAAACAAAAAAAQZgAAAAEAACAAAACUL6e7EI/hlP02ECgAHnsyCAkv+gHHaEFgtvrVvG1cFAAAAAAOgAAAAAIAACAAAABArilK/Re3JGRZKXjTiVDT4Bygy16dfvIiy7RbpiiEn5AAAABuH3pn7dlSUuxCCG5CPRK2PTePzsEq0XvHvPmNczlHrhzrvtOtXkGOv1j1hqaOTc+i/aOniXY52pULiPqnjWL23i42h0cUxF6g5nuEpT2SaKfIH+qyyfj6yk/hpTTO3nWimXy48oEfrpAmehnq1Fiw296mCsEh4bej28IxeHsbBU7rmRthwn/hOLQ/GmuTYGlAAAAA98rrf/tGn/j7u+/oaiUktOaG27AAFY+WE+zXZ0+G+LX2O57e6yFYCASN7GEeQway8YhIxhPx+lEFkYbGuS4pAw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV3sPw7jguUaJlk3hObwIdQAAAAACAAAAAAAQZgAAAAEAACAAAAAaD4iiGXJOqCXmyi3u3lMxGI6IwcIfDbDn5soPO+7kNAAAAAAOgAAAAAIAACAAAAD1jkY92G6KX0bMBFeOPHb+1kIArSNQcg2ETdp696EWppAAAADJxTpToYqeWowBscm/r4N99Gtx5oVZ1tfttjt6dvvvA56PDW5Gn6m6ziFssNMYalBWnQaZFWgCXwNY4tGkFFU4uhIjz6XN/UscQZB7W4RR37YpetCmVdnkc4eg3rVyQ3mzqDxEaMZA0JljIw1orNy5BLQBWyuFP6x1Scoimx2XhrOt8kTd1P4r0w6qeahGWYJAAAAAQmQ5KwEqr33wfAxlv1a8ChgpiiStPytK2V3rCn1+Dlkv7u3h0hogsfcbA+p0CAz/FZeAvUV1wMQV3z+cv8QDfg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -63,10 +63,10 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">18</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">27</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{79AFE315-F55C-42F5-AD8D-822AD36074D5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{1733165D-5287-43F5-8503-FC7122B58E7F}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -144,7 +144,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\fran1\OneDrive\Documentos\especializacion\archive\Combined_Flights_2018.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">F:\Especializacion\archive\Combined_Flights_2018.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -396,10 +396,10 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">43</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">45</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E9A55450-9FEE-478C-9B4E-E4D6788ABC76}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{FB413C1B-A824-4441-846A-2BBEC1AD1A85}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -477,7 +477,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\fran1\OneDrive\Documentos\especializacion\archive\Combined_Flights_2018.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">F:\Especializacion\archive\Combined_Flights_2018.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -522,8 +522,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property xml:space="preserve" SSIS:Name="Value">
-</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">,</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -730,10 +729,10 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">31</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">35</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{BBB98759-AC54-4557-810A-8F14A697FFC6}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{E2133EE7-F4D3-44EB-8C29-7B465917FBF2}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -811,7 +810,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\fran1\OneDrive\Documentos\especializacion\archive\Combined_Flights_2018.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">F:\Especializacion\archive\Combined_Flights_2018.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -856,8 +855,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property xml:space="preserve" SSIS:Name="Value">
-</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">,</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -902,6 +900,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1258,10 +1258,10 @@
                 <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">20</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">25</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{0D8BC97C-1F47-411F-A1A1-26323B7F51BE}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{048B6ED8-AD75-4F61-BB70-760B7E886B8C}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1339,7 +1339,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\fran1\OneDrive\Documentos\especializacion\archive\Combined_Flights_2018.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">F:\Especializacion\archive\Combined_Flights_2018.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1429,6 +1429,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1462,7 +1464,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.DestinoADONET.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1477,7 +1479,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.DestinoADONET.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1488,11 +1490,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;User ID=sa;Initial Catalog=Data2018SM19035;Encrypt=False;Application Name=SSIS-Package1-{1A163A8E-9A05-448A-BDBF-CE5BF7DB99C0}localhost.Data2018SM19035;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;User ID=sa;Initial Catalog=Data2018SM19035;Encrypt=False;Application Name=SSIS-Package1-{572B7A6D-36AC-4ED9-964E-4E6BB1817B55}localhost.sa1;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.ConnectUsingManagedIdentity">
+                <SSIS:Parameter SSIS:Name="CM.DestinoADONET.ConnectUsingManagedIdentity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1507,7 +1509,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.DestinoADONET.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1522,7 +1524,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.Password">
+                <SSIS:Parameter SSIS:Name="CM.DestinoADONET.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1536,7 +1538,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.DestinoADONET.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1551,7 +1553,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.DestinoADONET.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1566,7 +1568,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.UserName">
+                <SSIS:Parameter SSIS:Name="CM.DestinoADONET.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1581,7 +1583,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.sa.ConnectByProxy">
+                <SSIS:Parameter SSIS:Name="CM.OriginOLEDB.ConnectByProxy">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1596,7 +1598,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.sa.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.OriginOLEDB.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1607,11 +1609,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;User ID=sa;Initial Catalog=Data2018SM19035;Provider=MSOLEDBSQL.1;Auto Translate=False;Application Name=SSIS-Package1-{8400716D-675F-40EE-B897-8016C02B8C73}localhost.Data2018SM19035.sa;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=localhost;User ID=sa;Initial Catalog=Data2018SM19035;Provider=MSOLEDBSQL.1;Application Name=SSIS-Package1-{DFAA7FFF-F466-43D6-B07F-790AE0108590}localhost.Data2018SM19035.sa;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.sa.ConnectRetryCount">
+                <SSIS:Parameter SSIS:Name="CM.OriginOLEDB.ConnectRetryCount">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1626,7 +1628,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.sa.ConnectRetryInterval">
+                <SSIS:Parameter SSIS:Name="CM.OriginOLEDB.ConnectRetryInterval">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1641,7 +1643,7 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.sa.ConnectUsingManagedIdentity">
+                <SSIS:Parameter SSIS:Name="CM.OriginOLEDB.ConnectUsingManagedIdentity">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1656,7 +1658,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.sa.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.OriginOLEDB.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1671,7 +1673,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.sa.Password">
+                <SSIS:Parameter SSIS:Name="CM.OriginOLEDB.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1685,7 +1687,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.sa.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.OriginOLEDB.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1700,7 +1702,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.sa.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.OriginOLEDB.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -1715,7 +1717,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.localhost.Data2018SM19035.sa.UserName">
+                <SSIS:Parameter SSIS:Name="CM.OriginOLEDB.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
