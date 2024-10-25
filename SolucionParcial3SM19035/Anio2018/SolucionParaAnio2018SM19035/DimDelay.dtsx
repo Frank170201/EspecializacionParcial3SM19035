@@ -11,8 +11,8 @@
   DTS:LocaleID="17418"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{972B400D-8AD1-4D2A-988F-CF7D13F75CCE}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{0E209538-FB81-4D4E-B662-E5EFB445D3D3}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -597,7 +597,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtAUOcZ33J0iuTRHKNWUYUQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB32di3EhMniW/7h8aOtbOgm5DCdMne25Y+X2DEeOT6/gAAAAAOgAAAAAIAACAAAACL6bhywTHsw5rQI5qDuI4oKkgGoJcu6Zm6m3Vg2XwXJyAAAAD/lT1UocVD9xsfsRtY+lR/IDZfslUrjpRoOBR+HeyCbUAAAACYKPCndceZ+eojYGkrvYbgRFcLNVK6LsYfVRl2ZenZtBBHbf4xY/AMtiAJ7M4mpsIDiF+a8YFIXvXqVvJS6xEU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtAUOcZ33J0iuTRHKNWUYUQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAkIdWCr20sbC76tozvFkKZ72DGl2PGL7UgsoLbeY4jRQAAAAAOgAAAAAIAACAAAACMIxRz2Q9VovyvrIJEp6oBBeYGZzXuzeIAuyVPjh1scCAAAABjyBT7+gwTHoG+QcZO8AZ6LLOZw3WJdG3Vf/r0yRsGu0AAAAAYPzGg7wMNZgDLTtYZa8Ju+vNj6uUL0hj0P5RjtgxH3CuzWgyFZIX8HdBdDn5NHU5PBPOKlBbd4HUpgQ6Pn6t+</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -633,16 +633,9 @@
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[WheelsOff]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="150"
                       cachedName="WheelsOff"
                       lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[WheelsOff]" />
-                    <inputColumn
-                      refId="Package\Tarea Flujo de datos\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[DepTime]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="DepTime"
-                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DepTime]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -656,40 +649,18 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of WheelsOff]"
-                      dataType="wstr"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      length="50"
+                      errorRowDisposition="RedirectRow"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of WheelsOff]"
                       name="Copy of WheelsOff"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Especifica la columna de entrada usada como origen de datos para la conversión."
                           name="SourceInputColumnLineageID">#{Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[WheelsOff]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DepTime]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
-                      length="50"
-                      lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DepTime]"
-                      name="Copy of DepTime"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
-                          name="SourceInputColumnLineageID">#{Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DepTime]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
@@ -773,21 +744,19 @@
                   name="Entrada de destino de ADO NET">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[WheelsOff]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="WheelsOff"
-                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[WheelsOff]"
-                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[WheelsOff]" />
-                    <inputColumn
                       refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[DepTime]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="50"
+                      cachedLength="150"
                       cachedName="DepTime"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[DepTime]"
                       lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DepTime]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of WheelsOff]"
+                      cachedDataType="i4"
+                      cachedName="Copy of WheelsOff"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[WheelsOff]"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of WheelsOff]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -797,8 +766,7 @@
                       name="DelayKey" />
                     <externalMetadataColumn
                       refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[WheelsOff]"
-                      dataType="wstr"
-                      length="255"
+                      dataType="i4"
                       name="WheelsOff" />
                     <externalMetadataColumn
                       refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[DepTime]"
@@ -871,7 +839,7 @@
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[WheelsOff]"
-                      length="50"
+                      length="150"
                       lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[WheelsOff]"
                       name="WheelsOff"
                       truncationRowDisposition="FailComponent">
@@ -893,7 +861,7 @@
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[DepTime]"
-                      length="50"
+                      length="150"
                       lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DepTime]"
                       name="DepTime"
                       truncationRowDisposition="FailComponent">
@@ -1352,7 +1320,7 @@
         <NodeLayout
           Size="196,42"
           Id="Package\Tarea Flujo de datos\Origen de archivo plano"
-          TopLeft="85,150" />
+          TopLeft="177,154" />
         <NodeLayout
           Size="183,42"
           Id="Package\Tarea Flujo de datos\Destino de ADO NET"
@@ -1363,30 +1331,18 @@
           TopLeft="191,289" />
         <EdgeLayout
           Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
-          TopLeft="183,192">
+          TopLeft="278,196">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="98,97"
+              EndConnector="0,93"
               Start="0,0"
-              End="98,89.5">
+              End="0,85.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,44.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,44.5"
-                    Point2="0,48.5"
-                    Point3="4,48.5" />
-                  <mssgle:LineSegment
-                    End="94,48.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="94,48.5"
-                    Point2="98,48.5"
-                    Point3="98,52.5" />
-                  <mssgle:LineSegment
-                    End="98,89.5" />
+                    End="0,85.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
