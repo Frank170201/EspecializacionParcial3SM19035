@@ -1,8 +1,8 @@
-Create database Data2019SM19035
+Create database Data2018SM19035
 go
 
 
-use Data2019SM19035
+use Data2018SM19035
 
 go
 
@@ -18,14 +18,8 @@ IATA_Code_Operating_Airline  varchar(100) not null,
 
 create table DimDelay(
 DelayKey int identity(1,1) primary key,
-WheelsOff int,
-CarrierDelay int not null,
-DepTime varchar(255),
-WeatherDelay int not null,
-NASDelay int not null,
-SecurityDelay int not null,
-LateAircraftDelay int not null,
-CancellationCode varchar(255) not null,
+WheelsOff varchar(255) not null,
+DepTime varchar(255)
 )
 
 create table DimTime(
