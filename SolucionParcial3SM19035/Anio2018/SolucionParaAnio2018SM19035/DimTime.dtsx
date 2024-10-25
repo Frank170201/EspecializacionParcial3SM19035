@@ -11,8 +11,8 @@
   DTS:LocaleID="17418"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{523FD643-26CB-4A2C-8B08-BF125095B4AC}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{AE00F9CC-05B1-480B-8B37-9F2F39CC406F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -597,7 +597,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtAUOcZ33J0iuTRHKNWUYUQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD4rj6lIaKCjZ/kGa0UsT20kC2cRQl1S8Rql2v+hHeI2gAAAAAOgAAAAAIAACAAAACrv80wj0wBnuyv0P1MZVib15zSKeqdbnoRu06rwljlwCAAAAAGkR3Jnvn7ijiFjQ6IvGMg8D1p/UY2df3++nu1yBsfYEAAAADvg7Jkk6mha7B+fmqVspB2Yew1Un4qhmf2/+SUtV8S6htOnVannOKtH/bJd6OvSxXnhe9JHNhXD71NNcqZfH8c</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtAUOcZ33J0iuTRHKNWUYUQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAFoaLxB/GQvdfaXcd3ts1Yus3mKur7/4v3Azsibu/yxAAAAAAOgAAAAAIAACAAAAB90q9Yng3o3zVP8LmAFAFAVuuJ4J6Auy2JWpU8EZ+AoiAAAABQNXKzwvfKg3UYVJPRUcwNHlrB1RXelQtI3f55F6CTq0AAAACfXScVs9l2jFVLlBgMngrsGIlMXZWEZ7q1LxbKhx2BaYnMJgAMMBdvQCagghQYiCXK0PMKlGlx1jSM4CBSBx7p</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -686,10 +686,10 @@
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Year]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Year]"
                       name="Copy of Year"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           containsID="true"
@@ -706,10 +706,10 @@
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Month]"
                       dataType="i2"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Month]"
                       name="Copy of Month"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           containsID="true"
@@ -726,11 +726,11 @@
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Quarter]"
                       dataType="numeric"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Quarter]"
                       name="Copy of Quarter"
                       precision="18"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           containsID="true"
@@ -747,11 +747,11 @@
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DayOfWeek]"
                       dataType="numeric"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DayOfWeek]"
                       name="Copy of DayOfWeek"
                       precision="18"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           containsID="true"
@@ -768,11 +768,11 @@
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DayofMonth]"
                       dataType="numeric"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DayofMonth]"
                       name="Copy of DayofMonth"
                       precision="18"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           containsID="true"
@@ -787,12 +787,12 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of FlightDate]"
-                      dataType="date"
+                      dataType="i4"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of FlightDate]"
                       name="Copy of FlightDate"
-                      truncationRowDisposition="FailComponent">
+                      truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           containsID="true"
@@ -882,41 +882,48 @@
                   name="Entrada de destino de ADO NET">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of Year]"
-                      cachedDataType="i4"
-                      cachedName="Copy of Year"
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Year]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Year"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Year]"
-                      lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Year]" />
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Year]" />
                     <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of Month]"
-                      cachedDataType="i2"
-                      cachedName="Copy of Month"
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Month]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Month"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Month]"
-                      lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Month]" />
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Month]" />
                     <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of Quarter]"
-                      cachedDataType="numeric"
-                      cachedName="Copy of Quarter"
-                      cachedPrecision="18"
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Quarter]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Quarter"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Quarter]"
-                      lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of Quarter]" />
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Quarter]" />
                     <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of DayOfWeek]"
-                      cachedDataType="numeric"
-                      cachedName="Copy of DayOfWeek"
-                      cachedPrecision="18"
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[DayOfWeek]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DayOfWeek"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[DayOfWeek]"
-                      lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DayOfWeek]" />
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DayOfWeek]" />
                     <inputColumn
-                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of DayofMonth]"
-                      cachedDataType="numeric"
-                      cachedName="Copy of DayofMonth"
-                      cachedPrecision="18"
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[DayofMonth]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DayofMonth"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[DayOfMonth]"
-                      lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of DayofMonth]" />
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DayofMonth]" />
                     <inputColumn
                       refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of FlightDate]"
-                      cachedDataType="date"
+                      cachedDataType="i4"
                       cachedName="Copy of FlightDate"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[FligthDate]"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos].Columns[Copy of FlightDate]" />
@@ -949,7 +956,7 @@
                       name="DayOfMonth" />
                     <externalMetadataColumn
                       refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[FligthDate]"
-                      dataType="dbTimeStamp"
+                      dataType="i4"
                       name="FligthDate" />
                   </externalMetadataColumns>
                 </input>
@@ -1594,33 +1601,21 @@
         <NodeLayout
           Size="196,42"
           Id="Package\Tarea Flujo de datos\Origen de archivo plano"
-          TopLeft="121,139" />
+          TopLeft="208,144" />
         <EdgeLayout
           Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
-          TopLeft="219,181">
+          TopLeft="302.5,186">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="80,101"
+              EndConnector="0,96"
               Start="0,0"
-              End="80,93.5">
+              End="0,88.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,46.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,46.5"
-                    Point2="0,50.5"
-                    Point3="4,50.5" />
-                  <mssgle:LineSegment
-                    End="76,50.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="76,50.5"
-                    Point2="80,50.5"
-                    Point3="80,54.5" />
-                  <mssgle:LineSegment
-                    End="80,93.5" />
+                    End="0,88.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
