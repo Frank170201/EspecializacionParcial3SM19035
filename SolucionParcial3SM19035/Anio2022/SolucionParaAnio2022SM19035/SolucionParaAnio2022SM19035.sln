@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SolucionParaAnio2022SM19035", "SolucionParaAnio2022SM19035.dtproj", "{EFF06F7F-4BB8-4D09-BB30-64A027662BB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFF06F7F-4BB8-4D09-BB30-64A027662BB2}.Development|Default.ActiveCfg = Development
+		{EFF06F7F-4BB8-4D09-BB30-64A027662BB2}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E03AEF1-9C3A-451C-A979-876871E390A2}
+	EndGlobalSection
+EndGlobal
