@@ -11,8 +11,8 @@
   DTS:LocaleID="17418"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="37"
-  DTS:VersionGUID="{A14E360F-A10E-40E2-8111-CEB79535B70D}">
+  DTS:VersionBuild="62"
+  DTS:VersionGUID="{9734AEBF-8B48-487D-8308-A364BD1215A3}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -597,24 +597,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV3sPw7jguUaJlk3hObwIdQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC3jvQ7dfOQYkW4Ti2gJm24qRQ2bRlYt23Y3mYJB9vTTwAAAAAOgAAAAAIAACAAAAAPm9TB3dknKQNJKsLV2ebrJi5QV/NmjWvke5LS84zUjiAAAACFsGT+ATCtaeYy9hnQChDwkhZr7TfbOPO/GUiBMk++U0AAAAB6vPXoYZ80gG3+kIkKX/IZfmfwUyY5jlQLEMH41Lige3FkQv5iR+HbPno8LCbu89tuXS1ueD/yB2V1Trt8qZTy</DTS:Password>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[localhost.Data2019SM19035.sa]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{A34B7DEA-83E8-41E6-893F-76A46BFD6734}"
-      DTS:ObjectName="localhost.Data2019SM19035.sa">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=localhost;User ID=sa;Initial Catalog=Data2019SM19035;Provider=MSOLEDBSQL.1;Application Name=SSIS-Package1-{A34B7DEA-83E8-41E6-893F-76A46BFD6734}localhost.Data2019SM19035.sa;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV3sPw7jguUaJlk3hObwIdQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABiVWofwhmyZQ/CQfp8vIzwt1GK0IwhDMSQg9tLV7x3jwAAAAAOgAAAAAIAACAAAADUbKbvm8fbbtImyScUJbrfOWVjIY5YnIkCGwhyAcTdRCAAAAAfoKIELFZUZk/BEf4EthBBagIB/LEY+k0U8g9b3unZHkAAAAANrX/sQ+aLYeClxvzutjHR3bqVVSUPulh8HaA/vxsaKpUtGGChFgDltZ+VzoYJSTTMBnPs/caiLI3pOO/SSs6M</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV3sPw7jguUaJlk3hObwIdQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACRONJsc/mju0s+dj/27OCVUlCgikloqx2R+jRdrdJQ5AAAAAAOgAAAAAIAACAAAADbkje7IT6g3cdubhFwOF4NsP5hRfEPXvC+BhUwLciLCCAAAAA7reEhFtAriI1tPD3Ic+kY1jSVmvLqgSLWfI0cJ08Kk0AAAAC+khyY8ktDwKcdXnOHbYBgBCyW3xtNpkX5J5lbuTLkvzmWHHn8BEaZk25vwzPYs+Q8AMHwibiNqDU7SUMdH1u5</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -631,7 +614,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV3sPw7jguUaJlk3hObwIdQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB+mXa9mfSNezo3xrAYYIWL6w1mYtUhdxUDxEZA4hR4KQAAAAAOgAAAAAIAACAAAAA1E54lgL+Ks3V/3wm0tVz35p7pbb5HeSjyH2X8Xuv/pyAAAAAn5ip7OEeN3vMrgz9IIoo2q3tz9NcisBCR/hGGZPBbTEAAAADHgv6DHHBl7AMoOVakPZtgYl7892yBhJ+G8UEU7s9lFXzQI6en4hq/X1G2xPFDXb/uYT2qRAk0D/DVBHfsWvR8</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV3sPw7jguUaJlk3hObwIdQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAARyj4+nAcvpNGDdplOYW9wpyOHiHqu1aa0ziYVRGpx8AAAAAAOgAAAAAIAACAAAADhdFfg+Nyt9myN7/RA3vFAUYWJ9MKto6jYykkFhE5oRyAAAABzXUNKLc8Sqyy4j7otSnzHAWRG4u5xoxn1oLWYZJuljkAAAADRkGQndtV5Vk92Ju67fXERVQ2WzR5NCXYrIt88ESan+P9V7dpo63vAAU7Vq9NGLkAiE1Hjf4c14iDFrZBqgomV</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -671,7 +654,8 @@
                   description="Especifica una instrucción SQL que usa parámetros para generar la tabla de búsqueda."
                   expressionType="Notify"
                   name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[DimTime]) [refTable]
+where [refTable].[FligthDate] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Especifica el tipo de conexión utilizado para tener acceso al conjunto de datos de referencia."
@@ -702,12 +686,12 @@
                 <property
                   dataType="System.String"
                   description="Indica si se debe hacer referencia a metadatos en formato XML."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="TiempoKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Year" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Month" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Quarter" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DayOfWeek" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DayOfMonth" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="FligthDate" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="TiempoKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Year" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Month" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Quarter" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DayOfWeek" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DayOfMonth" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="FligthDate" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
                 <property
                   containsID="true"
                   dataType="System.String"
                   description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
-                  name="ParameterMap"></property>
+                  name="ParameterMap">#{Package\Tarea Flujo de datos\Conversión de datos 1.Outputs[Salida de conversión de datos].Columns[Copy of NewDate]};</property>
                 <property
                   dataType="System.Int32"
                   description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
@@ -720,8 +704,8 @@
               <connections>
                 <connection
                   refId="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[localhost.Data2019SM19035.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[localhost.Data2019SM19035.sa]"
+                  connectionManagerID="Package.ConnectionManagers[OrigenOLEDB]"
+                  connectionManagerRefId="Package.ConnectionManagers[OrigenOLEDB]"
                   description="Administrador de conexiones utilizado para obtener acceso a los datos de búsqueda."
                   name="OleDbConnection" />
               </connections>
@@ -729,6 +713,24 @@
                 <input
                   refId="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime.Inputs[Entrada de búsqueda]"
                   name="Entrada de búsqueda">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime.Inputs[Entrada de búsqueda].Columns[Copy of NewDate]"
+                      cachedDataType="dbDate"
+                      cachedName="Copy of NewDate"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 1.Outputs[Salida de conversión de datos].Columns[Copy of NewDate]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Especifica la columna de la tabla de referencia con la que se combina una columna."
+                          name="JoinToReferenceColumn">FligthDate</property>
+                        <property
+                          dataType="System.Null"
+                          description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
@@ -740,6 +742,22 @@
                   exclusionGroup="1"
                   name="Salida de entradas coincidentes de búsqueda"
                   synchronousInputId="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime.Inputs[Entrada de búsqueda]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime.Outputs[Salida de entradas coincidentes de búsqueda].Columns[TiempoKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Copiar columna"
+                      lineageId="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime.Outputs[Salida de entradas coincidentes de búsqueda].Columns[TiempoKey]"
+                      name="TiempoKey"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Especifica la columna de la tabla de referencia de la que se copia una columna."
+                          name="CopyFromReferenceColumn">TiempoKey</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
                   <externalMetadataColumns />
                 </output>
                 <output
@@ -767,164 +785,6 @@
                       refId="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay"
-              componentClassID="Microsoft.Lookup"
-              contactInfo="Búsqueda;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;6"
-              description="Combina columnas adicionales con el flujo de datos mediante la búsqueda de valores en una tabla. Por ejemplo, se combina la columna 'id. de empleado' con la tabla de empleados para obtener la 'fecha de contratación' y 'el nombre de empleado'. Se recomienda esta transformación cuando hay suficiente espacio en memoria para la tabla de búsqueda."
-              name="Busqueda de llave de DimDelay"
-              usesDispositions="true"
-              version="6">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Especifica la instrucción SQL que genera la tabla de búsqueda."
-                  expressionType="Notify"
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[DimDelay]</property>
-                <property
-                  dataType="System.String"
-                  description="Especifica una instrucción SQL que usa parámetros para generar la tabla de búsqueda."
-                  expressionType="Notify"
-                  name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[DimDelay]) [refTable]
-where [refTable].[DelayID] = ?</property>
-                <property
-                  dataType="System.Int32"
-                  description="Especifica el tipo de conexión utilizado para tener acceso al conjunto de datos de referencia."
-                  name="ConnectionType"
-                  typeConverter="LookupConnectionType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Especifica el tipo de caché de la tabla de búsqueda."
-                  name="CacheType"
-                  typeConverter="CacheType">2</property>
-                <property
-                  dataType="System.Int32"
-                  description="Especifica cómo la transformación de búsquedas trata las filas sin entradas coincidentes en el conjunto de datos de referencia."
-                  name="NoMatchBehavior"
-                  typeConverter="LookupNoMatchBehavior">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Especifica el porcentaje de la caché asignado a las filas sin entradas coincidentes en el conjunto de datos de referencia."
-                  name="NoMatchCachePercentage">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Uso de memoria máximo para la caché de referencia en una plataforma de 32 bits."
-                  name="MaxMemoryUsage">25</property>
-                <property
-                  dataType="System.Int64"
-                  description="Uso de memoria máximo para la caché de referencia en una plataforma de 64 bits."
-                  name="MaxMemoryUsage64">25</property>
-                <property
-                  dataType="System.String"
-                  description="Indica si se debe hacer referencia a metadatos en formato XML."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="DelayKey" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DelayID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="WheelsOff" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="DepTime" dataType="DT_STR" length="255" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
-                <property
-                  containsID="true"
-                  dataType="System.String"
-                  description="Especifica la lista de identificadores de linaje que están asignados a los parámetros que usa la instrucción SQL de la propiedad SQLCommand. Las entradas de la lista están separadas por puntos y comas."
-                  name="ParameterMap">#{Package\Tarea Flujo de datos\Conversión de datos 1.Outputs[Salida de conversión de datos].Columns[Copy of DepDelayMinutes]};</property>
-                <property
-                  dataType="System.Int32"
-                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Determina si las claves duplicadas de los datos de referencia se deben tratar como errores cuando se usa el modo de caché."
-                  name="TreatDuplicateKeysAsError">false</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[localhost.Data2019SM19035.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[localhost.Data2019SM19035.sa]"
-                  description="Administrador de conexiones utilizado para obtener acceso a los datos de búsqueda."
-                  name="OleDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Inputs[Entrada de búsqueda]"
-                  name="Entrada de búsqueda">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Inputs[Entrada de búsqueda].Columns[Copy of DepDelayMinutes]"
-                      cachedDataType="i4"
-                      cachedName="Copy of DepDelayMinutes"
-                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 1.Outputs[Salida de conversión de datos].Columns[Copy of DepDelayMinutes]">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Especifica la columna de la tabla de referencia con la que se combina una columna."
-                          name="JoinToReferenceColumn">DelayID</property>
-                        <property
-                          dataType="System.Null"
-                          description="Especifica la columna de la tabla de referencia de la que se copia una columna."
-                          name="CopyFromReferenceColumn" />
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Outputs[Salida de entradas coincidentes de búsqueda]"
-                  errorOrTruncationOperation="Búsqueda"
-                  errorRowDisposition="FailComponent"
-                  exclusionGroup="1"
-                  name="Salida de entradas coincidentes de búsqueda"
-                  synchronousInputId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Inputs[Entrada de búsqueda]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Outputs[Salida de entradas coincidentes de búsqueda].Columns[DelayKey]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Copiar columna"
-                      lineageId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Outputs[Salida de entradas coincidentes de búsqueda].Columns[DelayKey]"
-                      name="DelayKey"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Especifica la columna de la tabla de referencia de la que se copia una columna."
-                          name="CopyFromReferenceColumn">DelayKey</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Outputs[Salida de entradas no coincidentes de búsqueda]"
-                  description="Salida de búsqueda que trata las filas sin entradas coincidentes en el conjunto de datos de referencia. Utilice esta salida cuando la propiedad NoMatchBehavior esté establecida en 'Enviar las filas sin entradas coincidentes a la salida de entradas no coincidentes'."
-                  exclusionGroup="1"
-                  name="Salida de entradas no coincidentes de búsqueda"
-                  synchronousInputId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Inputs[Entrada de búsqueda]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Outputs[Salida de error de búsqueda]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Salida de error de búsqueda"
-                  synchronousInputId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Inputs[Entrada de búsqueda]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Outputs[Salida de error de búsqueda].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Outputs[Salida de error de búsqueda].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1091,6 +951,90 @@ where [refTable].[AirlineID] = ?</property>
               </outputs>
             </component>
             <component
+              refId="Package\Tarea Flujo de datos\Columna derivada"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="Columna derivada"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada].Columns[FlightDate]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="FlightDate"
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[FlightDate]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada].Columns[NewDate]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada].Columns[NewDate]"
+                      name="NewDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">(DT_STR,50,1252)[LEFT]((DT_STR,50,1252)#{Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[FlightDate]},10)</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_STR,50,1252)LEFT((DT_STR,50,1252)FlightDate,10)</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Tarea Flujo de datos\Conversión de datos"
               componentClassID="Microsoft.DataConvert"
               contactInfo="Conversión de datos;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
@@ -1106,7 +1050,7 @@ where [refTable].[AirlineID] = ?</property>
                       refId="Package\Tarea Flujo de datos\Conversión de datos.Inputs[Entrada de conversión de datos].Columns[DOT_ID_Operating_Airline]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="150"
+                      cachedLength="50"
                       cachedName="DOT_ID_Operating_Airline"
                       lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DOT_ID_Operating_Airline]" />
                   </inputColumns>
@@ -1180,12 +1124,12 @@ where [refTable].[AirlineID] = ?</property>
                   name="Entrada de conversión de datos">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Tarea Flujo de datos\Conversión de datos 1.Inputs[Entrada de conversión de datos].Columns[DepDelayMinutes]"
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 1.Inputs[Entrada de conversión de datos].Columns[NewDate]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="DepDelayMinutes"
-                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DepDelayMinutes]" />
+                      cachedName="NewDate"
+                      lineageId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada].Columns[NewDate]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1198,19 +1142,19 @@ where [refTable].[AirlineID] = ?</property>
                   synchronousInputId="Package\Tarea Flujo de datos\Conversión de datos 1.Inputs[Entrada de conversión de datos]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Tarea Flujo de datos\Conversión de datos 1.Outputs[Salida de conversión de datos].Columns[Copy of DepDelayMinutes]"
-                      dataType="i4"
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 1.Outputs[Salida de conversión de datos].Columns[Copy of NewDate]"
+                      dataType="dbDate"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 1.Outputs[Salida de conversión de datos].Columns[Copy of DepDelayMinutes]"
-                      name="Copy of DepDelayMinutes"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 1.Outputs[Salida de conversión de datos].Columns[Copy of NewDate]"
+                      name="Copy of NewDate"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Especifica la columna de entrada usada como origen de datos para la conversión."
-                          name="SourceInputColumnLineageID">#{Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DepDelayMinutes]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada].Columns[NewDate]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
@@ -1257,12 +1201,54 @@ where [refTable].[AirlineID] = ?</property>
                   name="Entrada de conversión de datos">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Inputs[Entrada de conversión de datos].Columns[FlightDate]"
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Inputs[Entrada de conversión de datos].Columns[DepDelayMinutes]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="150"
-                      cachedName="FlightDate"
-                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[FlightDate]" />
+                      cachedLength="50"
+                      cachedName="DepDelayMinutes"
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DepDelayMinutes]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Inputs[Entrada de conversión de datos].Columns[ArrDelayMinutes]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ArrDelayMinutes"
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[ArrDelayMinutes]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Inputs[Entrada de conversión de datos].Columns[Cancelled]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Cancelled"
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Cancelled]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Inputs[Entrada de conversión de datos].Columns[Diverted]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Diverted"
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Diverted]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Inputs[Entrada de conversión de datos].Columns[AirTime]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="AirTime"
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[AirTime]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Inputs[Entrada de conversión de datos].Columns[OriginAirportID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="OriginAirportID"
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[OriginAirportID]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Inputs[Entrada de conversión de datos].Columns[DestAirportID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="DestAirportID"
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DestAirportID]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -1275,19 +1261,142 @@ where [refTable].[AirlineID] = ?</property>
                   synchronousInputId="Package\Tarea Flujo de datos\Conversión de datos 2.Inputs[Entrada de conversión de datos]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of FlightDate]"
-                      dataType="date"
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of DepDelayMinutes]"
+                      dataType="r8"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="RedirectRow"
-                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of FlightDate]"
-                      name="Copy of FlightDate"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of DepDelayMinutes]"
+                      name="Copy of DepDelayMinutes"
                       truncationRowDisposition="RedirectRow">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Especifica la columna de entrada usada como origen de datos para la conversión."
-                          name="SourceInputColumnLineageID">#{Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[FlightDate]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DepDelayMinutes]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of ArrDelayMinutes]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="RedirectRow"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of ArrDelayMinutes]"
+                      name="Copy of ArrDelayMinutes"
+                      truncationRowDisposition="RedirectRow">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[ArrDelayMinutes]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of Cancelled]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="RedirectRow"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of Cancelled]"
+                      name="Copy of Cancelled"
+                      truncationRowDisposition="RedirectRow">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Cancelled]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of Diverted]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="RedirectRow"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of Diverted]"
+                      name="Copy of Diverted"
+                      truncationRowDisposition="RedirectRow">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Diverted]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of AirTime]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="RedirectRow"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of AirTime]"
+                      name="Copy of AirTime"
+                      precision="18"
+                      truncationRowDisposition="RedirectRow">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[AirTime]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of OriginAirportID]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="RedirectRow"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of OriginAirportID]"
+                      name="Copy of OriginAirportID"
+                      precision="18"
+                      truncationRowDisposition="RedirectRow">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[OriginAirportID]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of DestAirportID]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="RedirectRow"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of DestAirportID]"
+                      name="Copy of DestAirportID"
+                      precision="18"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica la columna de entrada usada como origen de datos para la conversión."
+                          name="SourceInputColumnLineageID">#{Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DestAirportID]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indica si la columna usa las rutinas de análisis más rápidas independientes de la configuración regional."
@@ -1314,6 +1423,192 @@ where [refTable].[AirlineID] = ?</property>
                       refId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de error de conversión de datos].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Tarea Flujo de datos\Destino de ADO NET"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
+              description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
+              name="Destino de ADO NET"
+              usesDispositions="true"
+              version="2">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Nombre de la tabla de la base de datos de destino."
+                  expressionType="Notify"
+                  name="TableOrViewName"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."FactFlight"</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifique el número de filas por lote. El valor predeterminado es 0, que utiliza el mismo tamaño que el búfer interno de SSIS. "
+                  expressionType="Notify"
+                  name="BatchSize">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito. "
+                  expressionType="Notify"
+                  name="CommandTimeout">30</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si se debe usar la interfaz SqlBulkCopy para mejorar el rendimiento de las operaciones de inserción masiva. No todos los proveedores admiten esta interfaz."
+                  expressionType="Notify"
+                  name="UseBulkInsertWhenPossible">true</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET.Connections[IDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[destinoADONET]"
+                  connectionManagerRefId="Package.ConnectionManagers[destinoADONET]"
+                  description="Administrador de conexiones administrado"
+                  name="IDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de ADO NET">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Flight_Number_Operating_Airline]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Flight_Number_Operating_Airline"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Flight_Number_Operating_Airline]"
+                      lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Flight_Number_Operating_Airline]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[AirlineKey]"
+                      cachedDataType="i4"
+                      cachedName="AirlineKey"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[AirlineKey]"
+                      lineageId="Package\Tarea Flujo de datos\Busqueda de llave en DimAirline.Outputs[Salida de entradas coincidentes de búsqueda].Columns[AirlineKey]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[TiempoKey]"
+                      cachedDataType="i4"
+                      cachedName="TiempoKey"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[TiempoKey]"
+                      lineageId="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime.Outputs[Salida de entradas coincidentes de búsqueda].Columns[TiempoKey]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of DepDelayMinutes]"
+                      cachedDataType="r8"
+                      cachedName="Copy of DepDelayMinutes"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[DepDelayMinutes]"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of DepDelayMinutes]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of ArrDelayMinutes]"
+                      cachedDataType="r8"
+                      cachedName="Copy of ArrDelayMinutes"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ArrDelayMinutes]"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of ArrDelayMinutes]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of Cancelled]"
+                      cachedDataType="bool"
+                      cachedName="Copy of Cancelled"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Cancelled]"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of Cancelled]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of Diverted]"
+                      cachedDataType="bool"
+                      cachedName="Copy of Diverted"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Diverted]"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of Diverted]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of AirTime]"
+                      cachedDataType="numeric"
+                      cachedName="Copy of AirTime"
+                      cachedPrecision="18"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[AirTime]"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of AirTime]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of OriginAirportID]"
+                      cachedDataType="numeric"
+                      cachedName="Copy of OriginAirportID"
+                      cachedPrecision="18"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[OriginAirportID]"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of OriginAirportID]" />
+                    <inputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of DestAirportID]"
+                      cachedDataType="numeric"
+                      cachedName="Copy of DestAirportID"
+                      cachedPrecision="18"
+                      externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[DestinationAirportID]"
+                      lineageId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos].Columns[Copy of DestAirportID]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[AirlineKey]"
+                      dataType="i4"
+                      name="AirlineKey" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[TiempoKey]"
+                      dataType="i4"
+                      name="TiempoKey" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Flight_Number_Operating_Airline]"
+                      dataType="wstr"
+                      length="100"
+                      name="Flight_Number_Operating_Airline" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[DepDelayMinutes]"
+                      dataType="r8"
+                      name="DepDelayMinutes" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ArrDelayMinutes]"
+                      dataType="r8"
+                      name="ArrDelayMinutes" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Cancelled]"
+                      dataType="bool"
+                      name="Cancelled" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Diverted]"
+                      dataType="bool"
+                      name="Diverted" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[AirTime]"
+                      dataType="i4"
+                      name="AirTime" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[OriginAirportID]"
+                      dataType="i4"
+                      name="OriginAirportID" />
+                    <externalMetadataColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[DestinationAirportID]"
+                      dataType="i4"
+                      name="DestinationAirportID" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Tarea Flujo de datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de ADO NET"
+                  synchronousInputId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Tarea Flujo de datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Tarea Flujo de datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1359,7 +1654,7 @@ where [refTable].[AirlineID] = ?</property>
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[FlightDate]"
-                      length="150"
+                      length="50"
                       lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[FlightDate]"
                       name="FlightDate"
                       truncationRowDisposition="FailComponent">
@@ -1579,7 +1874,7 @@ where [refTable].[AirlineID] = ?</property>
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[DOT_ID_Operating_Airline]"
-                      length="150"
+                      length="50"
                       lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DOT_ID_Operating_Airline]"
                       name="DOT_ID_Operating_Airline"
                       truncationRowDisposition="FailComponent">
@@ -1601,7 +1896,7 @@ where [refTable].[AirlineID] = ?</property>
                       refId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[FlightDate]"
                       codePage="1252"
                       dataType="str"
-                      length="150"
+                      length="50"
                       name="FlightDate" />
                     <externalMetadataColumn
                       refId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].ExternalColumns[Airline]"
@@ -1997,30 +2292,35 @@ where [refTable].[AirlineID] = ?</property>
           </components>
           <paths>
             <path
+              refId="Package\Tarea Flujo de datos.Paths[Salida de columna derivada]"
+              endId="Package\Tarea Flujo de datos\Conversión de datos 1.Inputs[Entrada de conversión de datos]"
+              name="Salida de columna derivada"
+              startId="Package\Tarea Flujo de datos\Columna derivada.Outputs[Salida de columna derivada]" />
+            <path
               refId="Package\Tarea Flujo de datos.Paths[Salida de conversión de datos]"
               endId="Package\Tarea Flujo de datos\Busqueda de llave en DimAirline.Inputs[Entrada de búsqueda]"
               name="Salida de conversión de datos"
               startId="Package\Tarea Flujo de datos\Conversión de datos.Outputs[Salida de conversión de datos]" />
             <path
               refId="Package\Tarea Flujo de datos.Paths[Salida de conversión de datos1]"
-              endId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Inputs[Entrada de búsqueda]"
+              endId="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime.Inputs[Entrada de búsqueda]"
               name="Salida de conversión de datos"
               startId="Package\Tarea Flujo de datos\Conversión de datos 1.Outputs[Salida de conversión de datos]" />
             <path
               refId="Package\Tarea Flujo de datos.Paths[Salida de conversión de datos2]"
-              endId="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime.Inputs[Entrada de búsqueda]"
+              endId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
               name="Salida de conversión de datos"
               startId="Package\Tarea Flujo de datos\Conversión de datos 2.Outputs[Salida de conversión de datos]" />
             <path
               refId="Package\Tarea Flujo de datos.Paths[Salida de entradas coincidentes de búsqueda]"
-              endId="Package\Tarea Flujo de datos\Conversión de datos 1.Inputs[Entrada de conversión de datos]"
+              endId="Package\Tarea Flujo de datos\Columna derivada.Inputs[Entrada de columna derivada]"
               name="Salida de entradas coincidentes de búsqueda"
               startId="Package\Tarea Flujo de datos\Busqueda de llave en DimAirline.Outputs[Salida de entradas coincidentes de búsqueda]" />
             <path
               refId="Package\Tarea Flujo de datos.Paths[Salida de entradas coincidentes de búsqueda1]"
               endId="Package\Tarea Flujo de datos\Conversión de datos 2.Inputs[Entrada de conversión de datos]"
               name="Salida de entradas coincidentes de búsqueda"
-              startId="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay.Outputs[Salida de entradas coincidentes de búsqueda]" />
+              startId="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime.Outputs[Salida de entradas coincidentes de búsqueda]" />
             <path
               refId="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
               endId="Package\Tarea Flujo de datos\Conversión de datos.Inputs[Entrada de conversión de datos]"
@@ -2056,17 +2356,149 @@ where [refTable].[AirlineID] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="196,42"
-          Id="Package\Tarea Flujo de datos\Origen de archivo plano"
-          TopLeft="226,18" />
-        <NodeLayout
-          Size="238,42"
-          Id="Package\Tarea Flujo de datos\Busqueda de llave en DimAirline"
-          TopLeft="206,240" />
+          Size="189,42"
+          Id="Package\Tarea Flujo de datos\Conversión de datos 2"
+          TopLeft="671,495" />
         <NodeLayout
           Size="180,42"
           Id="Package\Tarea Flujo de datos\Conversión de datos"
           TopLeft="230,124" />
+        <NodeLayout
+          Size="238,42"
+          Id="Package\Tarea Flujo de datos\Busqueda de llave en DimAirline"
+          TopLeft="204,211" />
+        <NodeLayout
+          Size="196,42"
+          Id="Package\Tarea Flujo de datos\Origen de archivo plano"
+          TopLeft="226,18" />
+        <NodeLayout
+          Size="183,42"
+          Id="Package\Tarea Flujo de datos\Destino de ADO NET"
+          TopLeft="676,332" />
+        <NodeLayout
+          Size="189,42"
+          Id="Package\Tarea Flujo de datos\Conversión de datos 1"
+          TopLeft="231,395" />
+        <NodeLayout
+          Size="243,42"
+          Id="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime"
+          TopLeft="209,494" />
+        <NodeLayout
+          Size="168,42"
+          Id="Package\Tarea Flujo de datos\Columna derivada"
+          TopLeft="244,304" />
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de entradas coincidentes de búsqueda]"
+          TopLeft="325.5,253">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51"
+              Start="0,0"
+              End="0,43.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-99.8190234375,15.65234375,199.638046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de conversión de datos2]"
+          TopLeft="766.5,495">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,-121"
+              Start="0,0"
+              End="0,-113.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-113.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de conversión de datos1]"
+          TopLeft="328,437">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,57"
+              Start="0,0"
+              End="0,49.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,49.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de conversión de datos]"
+          TopLeft="321.5,166">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45"
+              Start="0,0"
+              End="0,37.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tarea Flujo de datos.Paths[Salida de columna derivada]"
+          TopLeft="326.75,346">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,49"
+              Start="0,0"
+              End="0,41.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
           TopLeft="322,60">
@@ -2090,133 +2522,27 @@ where [refTable].[AirlineID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Tarea Flujo de datos.Paths[Salida de conversión de datos]"
-          TopLeft="322.5,166">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,74"
-              Start="0,0"
-              End="0,66.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,66.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="235,42"
-          Id="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay"
-          TopLeft="205,416" />
-        <NodeLayout
-          Size="189,42"
-          Id="Package\Tarea Flujo de datos\Conversión de datos 1"
-          TopLeft="229,330" />
-        <EdgeLayout
-          Id="Package\Tarea Flujo de datos.Paths[Salida de entradas coincidentes de búsqueda]"
-          TopLeft="324.25,282">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,48"
-              Start="0,0"
-              End="0,40.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,40.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,14.15234375,199.638046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Tarea Flujo de datos.Paths[Salida de conversión de datos1]"
-          TopLeft="323,372">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,44"
-              Start="0,0"
-              End="0,36.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="243,42"
-          Id="Package\Tarea Flujo de datos\Busqueda de la llave de DimTime"
-          TopLeft="203,575" />
-        <NodeLayout
-          Size="189,42"
-          Id="Package\Tarea Flujo de datos\Conversión de datos 2"
-          TopLeft="234,499" />
-        <EdgeLayout
           Id="Package\Tarea Flujo de datos.Paths[Salida de entradas coincidentes de búsqueda1]"
-          TopLeft="325.5,458">
+          TopLeft="452,515.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,41"
+              EndConnector="219,0"
               Start="0,0"
-              End="0,33.5">
+              End="211.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,33.5" />
+                    End="211.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-99.8190234375,10.65234375,199.638046875,12.1953125"
+              BoundingBox="5.93097656249999,5,199.638046875,12.1953125"
               RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Tarea Flujo de datos.Paths[Salida de conversión de datos2]"
-          TopLeft="326.5,541">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34"
-              Start="0,0"
-              End="0,26.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2228,7 +2554,7 @@ where [refTable].[AirlineID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -2238,7 +2564,7 @@ where [refTable].[AirlineID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2246,23 +2572,8 @@ where [refTable].[AirlineID] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Tarea Flujo de datos\Busqueda de llave de DimDelay">
+    design-time-name="Package\Tarea Flujo de datos\Destino de ADO NET">
     <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DimDelay]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
@@ -2274,7 +2585,7 @@ where [refTable].[AirlineID] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -2284,7 +2595,7 @@ where [refTable].[AirlineID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
