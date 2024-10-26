@@ -11,8 +11,8 @@
   DTS:LocaleID="17418"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="45"
-  DTS:VersionGUID="{FB413C1B-A824-4441-846A-2BBEC1AD1A85}">
+  DTS:VersionBuild="46"
+  DTS:VersionGUID="{00EAE071-150A-4E96-B64B-B47559DC8B04}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -597,7 +597,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV3sPw7jguUaJlk3hObwIdQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABhfVm9OXnl2E3E614UfnE6+OUbQ2M2YMQwM1q2Q78HhAAAAAAOgAAAAAIAACAAAADtXU4sYAJre4D7swPX47CEFxzKTswwOMkl3Cc9E9Q9/iAAAADqlRBUesdt1zKMj36a6xvafdg78Z2L1s6ALLRsGuhU6UAAAAAzITni7eQwLKtX4bm7UTqJAeunzq+B9Lddg4tcqbJRWkeytQvIU1Zfpws37cVU5BeA6LReeQjeoUd0uxrrr9Zh</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV3sPw7jguUaJlk3hObwIdQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACVgC2XlGdwchJNSpAufaMxquiuCUgSfX0zvljDzXZMxwAAAAAOgAAAAAIAACAAAAASTZLTvwOk9w3nE7KG06nt4FF1I+SzN/tDBzZgfMsn9yAAAADovGeRZzCgvHOXrzREtYkhtDqc6H/QMO+HamIN7nLca0AAAACTpymmhk+jHtorzoDhaSyiX0M3GIs/Ge0o2fyEFaFTVPSrRB5ag53TWOE30tCd4YJOrp6BPuGaqzrBfyNnWlST</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -649,7 +649,7 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\Tarea Flujo de datos\Data Conversion.Outputs[Data Conversion Output].Columns[DOT_ID_Operating_Airline_Converted]"
-                      dataType="i4"
+                      dataType="i8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="RedirectRow"
                       lineageId="Package\Tarea Flujo de datos\Data Conversion.Outputs[Data Conversion Output].Columns[DOT_ID_Operating_Airline_Converted]"
@@ -785,7 +785,7 @@
                       lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[IATA_Code_Operating_Airline]" />
                     <inputColumn
                       refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[DOT_ID_Operating_Airline_Converted]"
-                      cachedDataType="i4"
+                      cachedDataType="i8"
                       cachedName="DOT_ID_Operating_Airline_Converted"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[AirlineID]"
                       lineageId="Package\Tarea Flujo de datos\Data Conversion.Outputs[Data Conversion Output].Columns[DOT_ID_Operating_Airline_Converted]" />

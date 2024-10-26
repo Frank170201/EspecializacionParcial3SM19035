@@ -11,8 +11,8 @@
   DTS:LocaleID="17418"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="36"
-  DTS:VersionGUID="{EF8CA1A4-C0B4-462A-8A99-B900BB038E57}">
+  DTS:VersionBuild="38"
+  DTS:VersionGUID="{2D05CBB7-B12F-490E-83C0-5921E51B563B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1166,7 +1166,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV3sPw7jguUaJlk3hObwIdQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADs3iwa8n1/jZk0Q5g9SoknDL2Ll1CXWN+ZAWe6yrBfHQAAAAAOgAAAAAIAACAAAAB6Pu3r5XNfo3g0UTEgeBlBdIle40+nH55kKgc+rzru5CAAAACquqzccenp8CWm81OjMYWPP5mfTCzPjeaer1to5lpvvEAAAAByUTnZRQU5eWFGiwqxwdQbnQKr7yXcNaKUfL3GRxoSLqP41m+m/+Aa3LzoDNxr95QpnoEMGyjEkh8FUzpP71Oz</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV3sPw7jguUaJlk3hObwIdQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAYIFnzhlau7CrndJaBduFu+Leix/jQa1+qzq9s/qA5TAAAAAAOgAAAAAIAACAAAAALatpJ0bTfDX+LdVWYZjbb/Z/MZ1w1pHxwBUUgoem49iAAAACBMjL2Kyc3IEnhHaRRMuLs5r2dTUZKUuCmQ5/ixBiZKEAAAAA4reEYi9RkfMNxdJz7YHy0ws3oT8cHiN4IsOrWTyf4fp5Fp9JTNmy0YYFENm2WeXX2XjYmJkKCifGjSC57UBdM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1218,7 +1218,7 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\Tarea Flujo de datos\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of DepDelayMinutes]"
-                      dataType="i4"
+                      dataType="i8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="RedirectRow"
                       lineageId="Package\Tarea Flujo de datos\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of DepDelayMinutes]"
@@ -1330,7 +1330,7 @@
                       lineageId="Package\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[DepTime]" />
                     <inputColumn
                       refId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Copy of DepDelayMinutes]"
-                      cachedDataType="i4"
+                      cachedDataType="i8"
                       cachedName="Copy of DepDelayMinutes"
                       externalMetadataColumnId="Package\Tarea Flujo de datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[DelayID]"
                       lineageId="Package\Tarea Flujo de datos\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of DepDelayMinutes]" />
