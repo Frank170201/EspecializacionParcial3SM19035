@@ -1,8 +1,8 @@
-Create database Data2018SM19035
+Create database Data2022SM19035
 go
 
 
-use Data2018SM19035
+use Data2022SM19035
 
 go
 
